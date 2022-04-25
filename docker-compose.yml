@@ -1,0 +1,11 @@
+version: "3"
+services:
+  tex:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/tex
+    working_dir: /tex
+    entrypoint: []
+    command: /bin/sh build.sh

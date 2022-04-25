@@ -1,0 +1,17 @@
+meta:
+  reviewer:
+    - nikezono
+  rules: https://github.com/prh/rules
+version: 1
+rules:
+  - expected: 並行実行制御
+    pattern: 同時実行制御
+    prh: 「並行実行制御」に統一します．
+    specs:
+      - from: 同時実行制御は，トランザクションの分離性を保証するために重要である．
+        to: 並行実行制御は，トランザクションの分離性を保証するために重要である．
+  - expected: はじめとする
+    pattern: 始めとする
+    specs:
+      - from: 結果整合性を始めとする一貫性レベル
+        to: 結果整合性をはじめとする一貫性レベル

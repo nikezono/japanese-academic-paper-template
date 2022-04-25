@@ -1,0 +1,24 @@
+{
+  "name": "japanese_academic_paper_template",
+  "version": "1.0.0",
+  "main": "",
+  "author": "nikezono <nikezono@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@proofdict/textlint-rule-proofdict": "^3.1.2",
+    "prh": "^5.4.4",
+    "textlint": "^12.0.2",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-plugin-latex2e": "^1.1.4",
+    "textlint-rule-preset-ja-engineering-paper": "^1.0.3",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-japanese": "^7.0.0",
+    "textlint-rule-prh": "^5.3.0",
+    "github-markdown-css": "^5.1.0"
+  },
+  "scripts": {
+    "lint": "textlint src/**/*.tex main.tex",
+    "test": "textlint src/**/*.tex main.tex"
+  },
+  "dependencies": {}
+}
